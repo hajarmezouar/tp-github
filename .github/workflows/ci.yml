@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
 
       - name: insaller les indépendances
-        uses: pip install -r ressources/requirements.txt
+        run: pip install -r ressources/requirements.txt
 
       - name: Lancer les tests
-        uses: pytest ressources/ -v
+        run: pytest ressources/ -v
