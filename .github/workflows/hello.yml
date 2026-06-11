@@ -1,5 +1,5 @@
 name: Hello NexaCloud
-# Test protection rules
+# Test protection rules pushed in modification branch
 on:
   push:
     branches: [main]
