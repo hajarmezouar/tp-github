@@ -1,5 +1,5 @@
 name: Hello NexaCloud
-
+# Test CODEOWNERS
 on:
   push:
     branches: [main]
@@ -25,5 +25,3 @@ jobs:
 
       - name: Date et heure du runner
         run: date
-
-    
