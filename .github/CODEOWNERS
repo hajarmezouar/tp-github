@@ -1,7 +1,7 @@
 # Syntaxe : <pattern de fichier>  <@utilisateur ou @org/équipe>
 
 # Par défaut : tout changement requiert une review de ces personnes
-*                          @<votre-compte-github>
+# @<votre-compte-github>
 
 # Les workflows CI/CD ne peuvent être modifiés que par le lead DevOps
 .github/workflows/         @hajarmezouar
